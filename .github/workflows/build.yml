@@ -32,7 +32,7 @@ jobs:
           python-version: '3.11'
 
       - name: Checkout and sync repos
-        uses: arm/ai-ml-sdk-manifest/.github/actions/checkout@main
+        uses: chizkiyahu/ai-ml-sdk-manifest/.github/actions/checkout@main
         with:
           repo_groups: scenario-runner
           overrides: |
